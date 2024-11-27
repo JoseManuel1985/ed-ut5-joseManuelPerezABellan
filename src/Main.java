@@ -8,15 +8,15 @@ public class Main {
     public static int menu(){
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Gestión de la biblioteca");
-        System.out.println("--------------------------");
-        System.out.println("1. Agregar libro");
+        System.out.println("Gestión de la biblioteca - VERSIÓN MODIFICADA");
+        System.out.println("----------------------------------------------");
+        System.out.println("1. Agregar libro a la biblioteca");
         System.out.println("2. Actualizar ejemplares");
-        System.out.println("3. Mostrar información de todos los libros");
-        System.out.println("4. Buscar por autor");
-        System.out.println("5. Buscar por título inicial");
-        System.out.println("6. Eliminar libro");
-        System.out.println("7, Salir");
+        System.out.println("3. Mostrar información de todos los libros existentes");
+        System.out.println("4. Buscar por autor del libro");
+        System.out.println("5. Buscar por letra inicial del título del libro");
+        System.out.println("6. Eliminar libro de la base de datos");
+        System.out.println("7. Salir de la aplicación");
 
         int opcion = sc.nextInt();
         return  opcion;
